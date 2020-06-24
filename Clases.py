@@ -139,3 +139,113 @@ class provincia:
     def set_nombre(self,nombre):
         self.nombre=nombre
 
+class cabello:
+    def __init__(self,idcabello, color,densidad,textura):
+        self.idcabello=idcabello
+        self.color=color
+        self.densidad=densidad
+        self.textura
+    def get_idcabello(self):
+        return self.idcabello
+    def get_color(self):
+        return self.color
+    def get_densidad(self):
+        return self.densidad
+    def get_textura(self):
+        return self.textura
+    
+    def set_idcabello(self,idcabello):
+        self.idcabello=idcabello
+    def set_color(self,color):
+        self.color=color
+    def set_densidad(self,densidad):
+        self.densidad=densidad
+    def set_textura(self, textura):
+        self.textura=textura
+class texturacabello:
+    def __init__(self,idtexturacabello, nombre):
+        self.idtexturacabello=idtexturacabello
+        self.nombre=nombre
+    def get_idtexturacabello(self):
+        return self.idtexturacabello
+    def get_nombre(self):
+        return self.nombre
+    
+    def set_idtexturacabello(self,idtexturacabello):
+        self.idtexturacabello=idtexturacabello
+    def set_nombre(self,nombre):
+        self.nonbre=nombre
+class densidadcabello:
+    def __init__(self,iddencidadcabello,nombre):
+        self.iddensidadcabello=iddencidadcabello
+        self.nombre=nombre
+    def get_iddencidadcabello(self):
+        return self.iddensidadcabello
+    def get_nombre(self):
+        return self.nombre
+    
+    def set_iddencidadcabello(self,iddencidadcabello):
+        self.iddensidadcabello=iddencidadcabello
+    def set_nombre(self,nombre):
+        self.nombre=nombre
+class colorcabello:
+    def __init__(self, idcolorcabello,nombre):
+        self.idcolorcabello=idcolorcabello
+        self.nombre=nombre
+    def get_idcolorcabello(self):
+        return self.idcolorcabello
+    def get_nombre(self):
+        return self.nombre
+    
+    def set_idcolorcabello(self, idcolorcabello):
+        self.idcolorcabello=idcolorcabello
+    def set_nombre(self, nombre):
+        self.nombre=nombre
+class formacara:
+    def __init__(self,idformacara, nombre):
+        self.idformacara=idformacara
+        self.nombre
+    def get_idformacara(self):
+        return self.idformacara
+    def get_nombre(self):
+        return self.nombre
+    
+    def set_idformacara(self, idformacara):
+        self.idformacara=idformacara
+    def set_nombre(self, nombre):
+        self.nombre=nombre
+class colorpiel:
+    def __init__(self, idcolorpiel, nombre):
+        self.idcolorpiel=idcolorpiel
+        self.nombre=nombre
+    def get_idcolorpiel(self):
+        return self.idcolorpiel
+    def get_nombre(self):
+        return self.nombre
+    
+    def set_idcolorpiel(self,idcolorpiel):
+        self.idcolorpiel=idcolorpiel
+    def set_nombre(self, nombre):
+        self.nombre=nombre
+class vestuario:
+    def __init__(self,idvestuario,listaropa,calzado,listaaccesorios):
+        self.idvestuario=idvestuario
+        self.listaropa=listaropa
+        self.listaaccesorios=listaaccesorios
+    def get_idvestuario(self):
+        return self.idvestuario
+    def get_listaropa(self):
+        return self.listaropa
+    def get_calzado(self):
+        return self.calzado
+    def get_listaaccesorios(self):
+        return self.listaaccesorios
+    
+    def set_idvestuario(self, idvestuario):
+        self.idvestuario=idvestuario
+    def set_listaropa(self,listaropa):
+        self.listaropa=listaropa
+    def set_calzado(self,calzado):
+        self.calzado=calzado
+    def set_listaacesorios(self, listaaccesorios):
+        self.listaaccesorios
